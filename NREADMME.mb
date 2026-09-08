@@ -1,0 +1,11 @@
+# Git Workshop Project
+
+**Name:** Jezreel Ruiz
+
+**Project Title:** GIT TUTORIAL
+
+**Brief Description:**
+This is a simple HTML web page I've done. The project was made to practice using Git for tracking changes and maintaining the history of the project.
+
+**Reflection:**
+The difference between `git add` and `git commit` is that `git add` prepares and stages the changes that I want to include, while `git commit` saves those staged changes as a new version in the Git history. In simple terms, `git add` selects the changes, while `git commit` records them.
