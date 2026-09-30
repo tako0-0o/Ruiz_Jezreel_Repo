@@ -4,12 +4,192 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        * { box-sizing: border-box; }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 24px;
+            font-family: "Trebuchet MS", Arial, sans-serif;
+            color: #1c1c1c;
+            background: #ececec;
+        }
+
+        .profile {
+            width: 100%;
+            max-width: 440px;
+            background: #ffffff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.18);
+        }
+
+        .cover {
+            height: 110px;
+            background: #161616;
+            border-bottom: 5px solid #ff7a1a;
+        }
+
+        .avatar {
+            width: 96px;
+            height: 96px;
+            margin: -48px auto 0;
+            border-radius: 50%;
+            border: 5px solid #ffffff;
+            background: #ff7a1a;
+            color: #161616;
+            font-size: 34px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .info {
+            padding: 16px 28px 32px;
+            text-align: center;
+        }
+
+        h1 {
+            margin: 8px 0 4px;
+            font-size: 26px;
+        }
+
+        .subtitle {
+            margin: 0 0 24px;
+            color: #666666;
+            font-size: 15px;
+        }
+
+        .details {
+            margin: 0;
+            padding: 0;
+            text-align: left;
+        }
+
+        .row {
+            padding: 12px 0;
+            border-top: 1px solid #e6e6e6;
+        }
+
+        .row dt {
+            margin: 0 0 2px;
+            font-size: 13px;
+            color: #666666;
+        }
+
+        .row dd {
+            margin: 0;
+            font-size: 16px;
+        }
+
+        h2 {
+            margin: 0 0 10px;
+            font-size: 16px;
+        }
+
+        .section {
+            margin-top: 20px;
+            padding-top: 16px;
+            border-top: 1px solid #e6e6e6;
+            text-align: left;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .tags li {
+            padding: 6px 14px;
+            border-radius: 999px;
+            background: #f0f0f0;
+            font-size: 14px;
+        }
+
+        .tags li.hw {
+            background: #ff7a1a;
+            color: #161616;
+            font-weight: bold;
+        }
+
+        a {
+            color: #c2410c;
+            font-weight: bold;
+        }
+
+        a:focus-visible {
+            outline: 3px solid #ff7a1a;
+        }
+    </style>
 </head>
 <body>
-    <h1 styl=" font-family: Arial, sans-serif; color: #34495e"> "Hello! I'm Jezreel Ruiz!"</h1>
-    <p>"Oo nga legit!"</p>
-    <p1>"pwede magtanong?"</p1><br></br>
-    <p2>"Never Grow Old??"</p2>
-    <p3>"Assuming amp"</p3><br></br>
+    <main class="profile">
+        <div class="cover"></div>
+        <div class="avatar" aria-hidden="true">JR</div>
+
+        <div class="info">
+            <h1>Hello! I'm Jezreel Ruiz!</h1>
+            <p class="subtitle">Computer Engineering Student</p>
+
+            <dl class="details">
+                <div class="row">
+                    <dt>Age</dt>
+                    <dd>22 years old</dd>
+                </div>
+                <div class="row">
+                    <dt>Education</dt>
+                    <dd>BS Computer Engineering, President Ramon Magsaysay State University</dd>
+                </div>
+                <div class="row">
+                    <dt>Hometown</dt>
+                    <dd>Lauis, Candelaria, Zambales</dd>
+                </div>
+                <div class="row">
+                    <dt>Currently living in</dt>
+                    <dd>Palanginan, Iba, Zambales</dd>
+                </div>
+                <div class="row">
+                    <dt>Mobile number</dt>
+                    <dd>09667698280</dd>
+                </div>
+                <div class="row">
+                    <dt>Email</dt>
+                    <dd><a href="mailto:ruiz25jezreel@gmail.com">ruiz25jezreel@gmail.com</a></dd>
+                </div>
+                <div class="row">
+                    <dt>GitHub</dt>
+                    <dd><a href="https://github.com/tako0-0o">github.com/tako0-0o</a></dd>
+                </div>
+            </dl>
+
+            <section class="section">
+                <h2>Skills</h2>
+                <ul class="tags">
+                    <li>PHP</li>
+                    <li>HTML</li>
+                    <li>Java</li>
+                    <li>CSS</li>
+                    <li class="hw">Hardware and robotics</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2>Interests</h2>
+                <ul class="tags">
+                    <li>E-sports</li>
+                    <li>Badminton</li>
+                </ul>
+            </section>
+        </div>
+    </main>
 </body>
 </html>
