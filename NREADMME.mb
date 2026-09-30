@@ -1,3 +1,5 @@
+ACTICITY 1
+
 # Git Workshop Project
 
 **Name:** Jezreel Ruiz
@@ -9,3 +11,10 @@ This is a simple HTML web page I've done. The project was made to practice using
 
 **Reflection:**
 The difference between `git add` and `git commit` is that `git add` prepares and stages the changes that I want to include, while `git commit` saves those staged changes as a new version in the Git history. In simple terms, `git add` selects the changes, while `git commit` records them.
+
+
+ACTIVITY 2
+# Ruiz_Jezreel_GitWorkshop
+   I've logged in and connect my files in github repository.
+   Currently editing in github, not local vs code.
+   
